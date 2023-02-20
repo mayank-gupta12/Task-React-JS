@@ -1,0 +1,66 @@
+body{
+    overflow: hidden;
+}
+.lists{
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    margin-top: 2.2%;
+    width: 40%;
+    /* margin-left: 3%; */
+    border-radius: 15px;
+    padding: 5px 7px;
+    /* background-color: rgba(112, 236, 236, 0.701); */
+}
+.box{
+    height: 40vh;
+    width: 40vw;
+    overflow-y: scroll;
+    margin-top: 1%;
+    /* background-color: pink; */
+}
+
+.box::-webkit-scrollbar{
+    display: none;
+}
+.cross{
+    cursor: pointer;
+    margin-top: 1%;
+}
+.main{
+    width: 100%;
+    flex-wrap: nowrap;
+    display: inline-block;
+}
+.full{
+    height: 100%;
+    width: 100%;
+}
+
+ul{
+    flex-direction: column;
+    list-style-type: none;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+}
+.span-1{
+    font-size: 1.5rem;  
+}
+.span-2{
+    font-size: 1.5rem;  
+}
+.cross{
+    font-size: 1.5vmax;
+}
+.title{
+    font-size: 1.3rem;
+
+}
+.desc{
+    font-size: 1.3rem;
+
+}
