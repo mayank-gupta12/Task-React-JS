@@ -3,7 +3,6 @@ import Create from "./components/Create"
 import Show from "./components/Show"
 const App = () => {
   const [tasks, setTasks] = useState([])
-
   return (
     <>
       <Create tasks={tasks} setTasks={setTasks}/>

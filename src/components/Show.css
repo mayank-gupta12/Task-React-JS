@@ -7,17 +7,14 @@ body{
     align-items: center;
     margin-top: 2.2%;
     width: 40%;
-    /* margin-left: 3%; */
     border-radius: 15px;
     padding: 5px 7px;
-    /* background-color: rgba(112, 236, 236, 0.701); */
 }
 .box{
     height: 40vh;
     width: 40vw;
     overflow-y: scroll;
     margin-top: 1%;
-    /* background-color: pink; */
 }
 
 .box::-webkit-scrollbar{

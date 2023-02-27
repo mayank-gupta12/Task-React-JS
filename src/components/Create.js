@@ -8,7 +8,6 @@ const Create = (props) => {
   const { tasks, setTasks } = props
   const [title, settitle] = useState("")
   const [desc, setDesc] = useState("")
-
   const submithandler = (e) => {
     (e).preventDefault()
     const task = { title, desc }
